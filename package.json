@@ -1,0 +1,48 @@
+{
+  "name": "eslint-config-nicenice",
+  "version": "1.0.0",
+  "description": "eslint config that feels good; based on standardjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benogle/eslint-config-nicenice.git"
+  },
+  "keywords": [
+    "eslint",
+    "standard",
+    "standard-style",
+    "eslintconfig",
+    "lint"
+  ],
+  "author": "ogle.ben@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benogle/eslint-config-nicenice/issues"
+  },
+  "homepage": "https://github.com/benogle/eslint-config-nicenice#readme",
+  "devDependencies": {
+    "babel-eslint": "^8.2.2",
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-config-standard-jsx": "^5.0.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-react": "^7.7.0",
+    "eslint-plugin-standard": "^3.0.1"
+  },
+  "peerDependencies": {
+    "babel-eslint": ">=8.2.0",
+    "eslint": ">=4.19.0",
+    "eslint-config-standard": ">=11.0.0",
+    "eslint-config-standard-jsx": ">=5.0.0",
+    "eslint-plugin-import": ">=2.9.0",
+    "eslint-plugin-node": ">=6.0.1",
+    "eslint-plugin-promise": ">=3.7.0",
+    "eslint-plugin-react": ">=7.7.0",
+    "eslint-plugin-standard": ">=3.0.1"
+  }
+}
