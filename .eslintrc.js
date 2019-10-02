@@ -3,6 +3,7 @@
 module.exports = {
   parser: 'babel-eslint',
   extends: ['standard', 'standard-jsx'],
+  plugins: ['no-only-tests'],
   rules: {
     'jsx-quotes': ['error', 'prefer-double'],
     'object-curly-spacing': ['error', 'always'],
@@ -60,7 +61,9 @@ module.exports = {
 
     // This is for the mocha tests. It should be an override, but they dont work for me
     // http://eslint.org/docs/user-guide/configuring#configuration-based-on-glob-patterns
-    'no-unused-expressions': 0
+    'no-unused-expressions': 0,
+
+    'no-only-tests/no-only-tests': 'error'
   },
   env: {
     'browser': true,
