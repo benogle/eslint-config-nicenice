@@ -41,7 +41,7 @@ Install many dependencies because [eslint sucks at them](https://github.com/esli
 yarn add --dev eslint-config-nicenice
 
 # add a billion dependencies because eslint doesnt handle allow them to be wrapped up in this package. Sorry
-yarn add --dev eslint babel-eslint eslint-config-standard eslint-config-standard-jsx eslint-plugin-import eslint-plugin-node eslint-plugin-promise eslint-plugin-react eslint-plugin-standard
+yarn add --dev eslint babel-eslint eslint-config-standard eslint-config-standard-jsx eslint-plugin-import eslint-plugin-node eslint-plugin-promise eslint-plugin-react eslint-plugin-standard eslint-plugin-no-only-tests
 ```
 
 Create a `.eslintrc.js` file:
