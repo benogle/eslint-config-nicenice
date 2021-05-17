@@ -6,6 +6,9 @@ const a = {
   omg: 1,
 }
 
+import { thing } from './something'
+console.log(thing)
+
 const b = { wowza: 1 }
 
 console.log(a.omg, b)

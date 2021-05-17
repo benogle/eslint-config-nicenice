@@ -1,7 +1,11 @@
 'use strict'
 
 module.exports = {
-  parser: 'babel-eslint',
+  parser: '@babel/eslint-parser',
+  parserOptions: {
+    // This is to disable requiring a babel config file be found
+    requireConfigFile: false,
+  },
   extends: ['standard', 'standard-jsx'],
   plugins: ['no-only-tests'],
   rules: {
@@ -62,7 +66,6 @@ module.exports = {
     // This is for the mocha tests. It should be an override, but they dont work for me
     // http://eslint.org/docs/user-guide/configuring#configuration-based-on-glob-patterns
     'no-unused-expressions': 0,
-
     'no-only-tests/no-only-tests': 'error'
   },
   env: {
