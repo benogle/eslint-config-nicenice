@@ -18,7 +18,7 @@ module.exports = {
     'react/prop-types': ['error', {
       ignore: [],
       customValidators: [],
-      skipUndeclared: false
+      skipUndeclared: false,
     }],
 
     'react/sort-comp': ['error', {
@@ -58,7 +58,7 @@ module.exports = {
         ],
         rendering: [
           '/^render.+$/',
-          'render'
+          'render',
         ],
       },
     }],
@@ -66,16 +66,16 @@ module.exports = {
     // This is for the mocha tests. It should be an override, but they dont work for me
     // http://eslint.org/docs/user-guide/configuring#configuration-based-on-glob-patterns
     'no-unused-expressions': 0,
-    'no-only-tests/no-only-tests': 'error'
+    'no-only-tests/no-only-tests': 'error',
   },
   env: {
-    'browser': true,
-    'node': true,
-    'mocha': true
+    browser: true,
+    node: true,
+    mocha: true,
   },
   globals: {
     sinon: true,
     expect: true,
-    chai: true
-  }
+    chai: true,
+  },
 }
