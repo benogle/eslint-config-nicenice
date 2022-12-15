@@ -7,7 +7,7 @@ module.exports = {
     requireConfigFile: false,
   },
   extends: ['standard', 'standard-jsx'],
-  plugins: ['no-only-tests'],
+  plugins: ['no-only-tests', 'react-camel-case'],
   rules: {
     'jsx-quotes': ['error', 'prefer-double'],
     'object-curly-spacing': ['error', 'always'],
@@ -67,6 +67,8 @@ module.exports = {
     // http://eslint.org/docs/user-guide/configuring#configuration-based-on-glob-patterns
     'no-unused-expressions': 0,
     'no-only-tests/no-only-tests': 'error',
+
+    'react-camel-case/react-camel-case': 'error',
   },
   env: {
     browser: true,
