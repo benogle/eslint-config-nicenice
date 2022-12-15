@@ -636,6 +636,11 @@ eslint-plugin-promise@^5.1.0:
   resolved "https://registry.yarnpkg.com/eslint-plugin-promise/-/eslint-plugin-promise-5.1.0.tgz#fb2188fb734e4557993733b41aa1a688f46c6f24"
   integrity sha512-NGmI6BH5L12pl7ScQHbg7tvtk4wPxxj8yPHH47NvSmMtFneC077PSeY3huFj06ZWZvtbfxSPt3RuOQD5XcR4ng==
 
+eslint-plugin-react-camel-case@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-react-camel-case/-/eslint-plugin-react-camel-case-1.0.0.tgz#d913d5602f59e8588c65b9ba877310980900fca5"
+  integrity sha512-rj+wDvY7VkIw9EVRUcJJd/HxlWjfKE/2O0QFwovg/caieXErmHTTMNw4Q0dQ4lp2slWXdxqw7L2Y9KC2TF0umQ==
+
 eslint-plugin-react@^7.24.0:
   version "7.24.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.24.0.tgz#eadedfa351a6f36b490aa17f4fa9b14e842b9eb4"
