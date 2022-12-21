@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-nicenice",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "description": "eslint config that feels good; based on standardjs",
   "main": "index.js",
   "scripts": {
