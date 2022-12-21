@@ -6,8 +6,8 @@ module.exports = {
     // This is to disable requiring a babel config file be found
     requireConfigFile: false,
   },
-  extends: ['standard', 'standard-jsx'],
-  plugins: ['no-only-tests', 'react-camel-case'],
+  extends: ['standard', 'standard-jsx', 'plugin:prettier/recommended'],
+  plugins: ['no-only-tests', 'prettier', 'react-camel-case'],
   rules: {
     'jsx-quotes': ['error', 'prefer-double'],
     'object-curly-spacing': ['error', 'always'],
@@ -90,6 +90,11 @@ module.exports = {
     'import/named': 2,
 
     'react-camel-case/react-camel-case': 'error',
+  },
+  settings: {
+    react: {
+      version: 'detect',
+    },
   },
   env: {
     browser: true,
