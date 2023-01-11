@@ -91,6 +91,7 @@ module.exports = {
 
     "react-camel-case/react-camel-case": "error",
   },
+  // from: https://github.com/eslint/eslint/issues/11072
   overrides: [
     {
       files: ["**/tests/**", "**/spec.js", "**/__mocks/**"],
