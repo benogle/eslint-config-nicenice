@@ -91,6 +91,13 @@ module.exports = {
 
     'react-camel-case/react-camel-case': 'error',
   },
+  // from: https://github.com/eslint/eslint/issues/11072
+  overrides: [
+    {
+      files: ['**/tests/**', '**/spec.js', '**/__mocks/**'],
+      env: { mocha: true, jest: true, jasmine: true },
+    },
+  ],
   settings: {
     react: {
       version: 'detect',
@@ -99,7 +106,6 @@ module.exports = {
   env: {
     browser: true,
     node: true,
-    mocha: true,
   },
   globals: {
     sinon: true,
