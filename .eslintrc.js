@@ -89,7 +89,9 @@ module.exports = {
     'import/no-named-default': 'off',
     'import/named': 2,
 
-    'svg-jsx/react-camel-case': 'error',
+    'svg-jsx/camel-case-dash': 'error',
+    'svg-jsx/camel-case-colon': 'error',
+    'svg-jsx/no-style-string': 'error',
   },
   // from: https://github.com/eslint/eslint/issues/11072
   overrides: [
