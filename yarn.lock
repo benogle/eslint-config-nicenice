@@ -842,10 +842,10 @@ eslint-plugin-react@^7.31.11:
     semver "^6.3.1"
     string.prototype.matchall "^4.0.8"
 
-eslint-plugin-svg-jsx@^1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-svg-jsx/-/eslint-plugin-svg-jsx-1.2.1.tgz#e55d37c978d77da980e52a846a498d06b8fa40a4"
-  integrity sha512-MaMfY6GRQIXOxCAl16CiRC3EBH7qELria6ve75OZJt2LMd7+5heoLtA8j+o4SLr93R2m8IyEHWsY65js42co0g==
+eslint-plugin-svg-jsx@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-svg-jsx/-/eslint-plugin-svg-jsx-1.2.2.tgz#1936afd133a070b336a6a2a412da1306e08a8f56"
+  integrity sha512-7TXN/8aW3x+/7Y0lniWML2+BeX8oxB87r/ATG+m7a5n5WO/pWMYChZ4bI+hVkXU8v/oHPCBXrqeVKoeSl72xJA==
 
 eslint-scope@5.1.1:
   version "5.1.1"
