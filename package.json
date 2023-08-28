@@ -37,7 +37,7 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-react": "^7.31.11",
-    "eslint-plugin-svg-jsx": "^1.2.0"
+    "eslint-plugin-svg-jsx": "^1.2.2"
   },
   "devDependencies": {
     "@babel/core": "^7.20.5",
