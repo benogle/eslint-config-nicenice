@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-nicenice",
-  "version": "4.0.1",
+  "version": "4.1.0",
   "description": "eslint config that feels good; based on standardjs",
   "main": "index.js",
   "scripts": {
@@ -37,7 +37,7 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-react": "^7.31.11",
-    "eslint-plugin-react-camel-case": "^1.0.0"
+    "eslint-plugin-svg-jsx": "^1.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.5",
@@ -53,7 +53,7 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-react": "^7.31.11",
-    "eslint-plugin-react-camel-case": "^1.0.0",
+    "eslint-plugin-svg-jsx": "^1.2.1",
     "prettier": "^2.8.2"
   }
 }

@@ -7,7 +7,7 @@ module.exports = {
     requireConfigFile: false,
   },
   extends: ['standard', 'standard-jsx', 'plugin:prettier/recommended'],
-  plugins: ['no-only-tests', 'prettier', 'react-camel-case'],
+  plugins: ['no-only-tests', 'prettier', 'svg-jsx'],
   rules: {
     'jsx-quotes': ['error', 'prefer-double'],
     'object-curly-spacing': ['error', 'always'],
@@ -89,7 +89,9 @@ module.exports = {
     'import/no-named-default': 'off',
     'import/named': 2,
 
-    'react-camel-case/react-camel-case': 'error',
+    'svg-jsx/camel-case-dash': 'error',
+    'svg-jsx/camel-case-colon': 'error',
+    'svg-jsx/no-style-string': 'error',
   },
   // from: https://github.com/eslint/eslint/issues/11072
   overrides: [
