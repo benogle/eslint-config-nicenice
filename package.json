@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-nicenice",
-  "version": "4.1.0",
+  "version": "4.1.1",
   "description": "eslint config that feels good; based on standardjs",
   "main": "index.js",
   "scripts": {
@@ -53,7 +53,7 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-react": "^7.31.11",
-    "eslint-plugin-svg-jsx": "^1.2.1",
+    "eslint-plugin-svg-jsx": "^1.2.2",
     "prettier": "^2.8.2"
   }
 }
